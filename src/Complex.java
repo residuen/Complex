@@ -88,7 +88,7 @@ public class Complex
 	}
 	
 	/**
-	 * <u>Liefert den WInkel in ° zur&uuml;ck</u><br>
+	 * <u>Liefert den Winkel in ° zur&uuml;ck</u><br>
 	 * @return Winkel in Grad zur&uuml;ckliefern
 	 */
 	public double getArgAsDegrease()
@@ -97,7 +97,7 @@ public class Complex
 	}
 	
 	/**
-	 * <u>Ausgabe der Complexen Zahl auf der Konsole</u><br>
+	 * <u>Ausgabe der Komplexen Zahl auf der Konsole</u><br>
 	 */
 	public void printComplexNumber()
 	{
@@ -105,7 +105,7 @@ public class Complex
 		System.out.println("Betrag="+abs+" | Phase="+arg+" | Phase in °="+getArgAsDegrease());
 	}
 	/**
-	 * <u>Ausgabe der Complexen Zahl auf der Konsole, inklusive &uuml;bergebenen String</u><br>
+	 * <u>Ausgabe der Komplexen Zahl auf der Konsole, inklusive &uuml;bergebenen String</u><br>
 	 * @param string &Uuml;bergebene Zeichenkette wird der Ausgabe vorangestellt
 	 */
 	public void printComplexNumber(String string)
